@@ -74,9 +74,11 @@ button.cancel {
   display: flex;
   gap: 16px;
   padding: 16px;
+  outline: 2px solid red;
 }
 
 .icon {
+  outline: 1px solid blue;
   /* this keeps the icon from getting smashed by the text */
   flex-shrink: 0;
 }
@@ -88,8 +90,10 @@ button.cancel {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 8px;
+  outline: 2px solid blue;
 }
 
 .text {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  outline: 2px solid blue;
 }
